@@ -1,0 +1,35 @@
+.f-container{
+    justify-content: space-between;
+   
+}
+.f-left{
+    gap: 1em;
+}
+.f-right{
+   gap: 1.5rem;
+   margin-top: 1.5rem;
+   font-weight: 500;
+}
+.f-menu{
+    gap: 1em;
+}
+@media (max-width:768px) {
+    .f-container{
+        justify-content: center;
+    }
+    .f-container>div{
+        align-items: center!important;
+        text-align: center;
+
+    }
+    
+}
+.inner-container{
+    gap: 1.5rem;
+    background: #4161df;
+    padding: 2em;
+
+border-radius: 10px;
+border: 6px solid #5d77d6;
+text-align: center;
+}
